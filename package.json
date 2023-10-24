@@ -1,0 +1,41 @@
+{
+  "name": "rspress-starter-template",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "repository": "github:recallwei/rspress-starter-template",
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview",
+    "cspell:check": "cspell **",
+    "eslint:check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "eslint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "prettier:fix": "prettier --write --ignore-unknown .",
+    "cz": "git-cz",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "rspress": "^1.1.3"
+  },
+  "devDependencies": {
+    "@brucesong/eslint-config-react": "^1.0.13",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
+    "@types/node": "^20.8.8",
+    "commitizen": "^4.3.0",
+    "cspell": "^7.3.8",
+    "cz-git": "^1.7.1",
+    "eslint": "^8.52.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "private": true,
+  "license": "MIT"
+}
