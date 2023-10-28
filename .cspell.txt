@@ -8,5 +8,5 @@ preinstall
 recallwei
 rspress
 Taskward
-weixin
+wechat
 xcassets

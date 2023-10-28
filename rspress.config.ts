@@ -19,8 +19,13 @@ export default defineConfig({
     outlineTitle: '目录',
     lastUpdated: true,
     lastUpdatedText: '上次更新',
-    prevPageText: '上一页',
-    nextPageText: '下一页',
+    prevPageText: '上一篇',
+    nextPageText: '下一篇',
+    editLink: {
+      docRepoBaseUrl:
+        'https://github.com/recallwei/rspress-starter-template/tree/main/docs',
+      text: '📝 在 GitHub 上编辑此页'
+    },
     hideNavbar: 'auto',
     enableContentAnimation: true,
     socialLinks: [
@@ -40,7 +45,7 @@ export default defineConfig({
         content: 'https://juejin.cn/user/4117044626470823'
       },
       {
-        icon: 'weixin',
+        icon: 'wechat',
         mode: 'text',
         content: '微信号: Recall4056'
       },
